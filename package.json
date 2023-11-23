@@ -1,0 +1,17 @@
+{
+  "name": "module-1-eval",
+  "version": "1.0.0",
+  "description": "",
+  "source": "'./src/*.html'",
+  "scripts": {
+    "install": "pnpm install",
+    "dev": "parcel './src/*.html'"
+  },
+  "keywords": [],
+  "author": "Mathis Herriot",
+  "license": "MIT",
+  "dependencies": {
+    "@parcel/config-default": "^2.10.3",
+    "parcel": "^2.10.3"
+  }
+}
