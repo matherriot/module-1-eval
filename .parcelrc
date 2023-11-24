@@ -6,6 +6,9 @@
       "@parcel/compressor-brotli"
     ]
   },
+  "optimizers": {
+    "*.{jpg,jpeg,png}": []
+  },
   "extends": "@parcel/config-default",
-  "namers": ["@gatsbyjs/parcel-namer-relative-to-cwd", "..."]
+  "reporters":  ["...", "parcel-reporter-clean-dist"]
 }
