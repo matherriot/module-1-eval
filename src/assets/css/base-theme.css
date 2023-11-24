@@ -3,5 +3,23 @@
   ==================== */
 
 * {
-    --color-body-bg: black ; /* #ecf0f1 */
+    --color-background: #13004e;
+    --color-background-alt: #18005f;
+    --color-primary: #48007e;
+    --color-border: #8b4cbb;
+    --color-alt: #48007e;
+    --color-text: #FBF0FF;
+    --color-apeal: #F0A000;
+}
+
+.bg-gradient {
+  background: var(--color-background);
+  background: -moz-radial-gradient(center, var(--color-background-alt) 0%, var(--color-background) 100%);
+  background: -webkit-radial-gradient(center, var(--color-background-alt) 0%, var(--color-background) 100%);
+  background: radial-gradient(ellipse at center, var(--color-background-alt) 0%, var(--color-background) 100%);
+}
+
+header {
+  background-color: var(--color-primary);
+  border-bottom-color: var(--color-border);
 }
