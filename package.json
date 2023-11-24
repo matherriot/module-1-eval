@@ -1,0 +1,21 @@
+{
+  "name": "module-1-eval",
+  "version": "1.0.0",
+  "description": "",
+  "source": "'./src/**/*.html'",
+  "scripts": {
+    "build": "parcel build './src/**/*.html'",
+    "dev": "parcel './src/**/*.html'"
+  },
+  "keywords": [],
+  "author": "Mathis Herriot",
+  "license": "MIT",
+  "devDependencies": {
+    "@netlify/plugin-lighthouse": "^5.0.0",
+    "@parcel/compressor-brotli": "^2.10.3",
+    "@parcel/compressor-gzip": "^2.10.3",
+    "@parcel/config-default": "^2.10.3",
+    "parcel": "^2.10.3",
+    "parcel-reporter-clean-dist": "^1.0.4"
+  }
+}

@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
+    height: auto;
+
+    background-color: var(--color-body-bg);
+}
+
+header {
+    background-color: rgb(43, 226, 83);
+    order: 1;
+    height: 8vh;
+    width: inherit;
+}
+
+main {
+    background-color: slateblue;
+    order: 2;
+    min-height: 92vh;
+    width: inherit;
+
+}
+
+footer {
+    background-color: brown;
+    order: 3;
+    height: 10vh;
+    width: inherit;
+
+}

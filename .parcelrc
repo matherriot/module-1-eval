@@ -1,0 +1,14 @@
+{
+  "compressors": {
+    "*.{html,css,js,svg,map}": [
+      "...",
+      "@parcel/compressor-gzip",
+      "@parcel/compressor-brotli"
+    ]
+  },
+  "optimizers": {
+    "*.{jpg,jpeg,png}": []
+  },
+  "extends": "@parcel/config-default",
+  "reporters":  ["...", "parcel-reporter-clean-dist"]
+}
