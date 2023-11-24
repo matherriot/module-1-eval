@@ -4,9 +4,8 @@
   "description": "",
   "source": "'./src/**/*.html'",
   "scripts": {
-    "install": "pnpm install",
-    "dev": "parcel './src/**/*.html'",
-    "build": "parcel build './src/**/*.html'"
+    "build": "parcel build './src/**/*.html'",
+    "dev": "parcel './src/**/*.html'"
   },
   "keywords": [],
   "author": "Mathis Herriot",
