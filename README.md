@@ -28,13 +28,13 @@
 
 |Checkup| Etat |
 |--|--|
-| Les critères sont respecté | :x: |
-| Le code source est propre, clair et organisé | :x: |
+| Les critères sont respecté | ⏲️ |
+| Le code source est propre, clair et organisé | 🕙 |
 |Le design est original et créatif | :x: |
 |La fluidité et l'expérience utilisateur sont au rendez-vous | :x: |
-|Respect des paradigmes et conventions | :x: |
-|Le code source est maintenable dans la durée | :x: |
-|[W3C Markup proof](https://validator.w3.org/) | :x: |
+|Respect des paradigmes et conventions | 🔖 |
+|Le code source est maintenable dans la durée | 🕞  |
+|[W3C Markup proof]([https://validator.w3.org/](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmh-module-1.netlify.app)) | 🔬 |
 |[Mobile proof](https://ready.mobi/) | :x: |
 |[W3C CSS proof](https://jigsaw.w3.org/css-validator/) | :x: |
 |[PageSpeed Insights](https://pagespeed.web.dev/) | :x: |
