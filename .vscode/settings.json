@@ -1,0 +1,9 @@
+{
+    "conventionalCommits.scopes": [
+        "src",
+        "style",
+        "html",
+        "modules"
+    ],
+    "git.ignoreLimitWarning": true
+}
