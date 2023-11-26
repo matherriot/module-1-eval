@@ -1,15 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
 /*====================
     > Variables de couleurs
   ==================== */
 
 * {
-    --color-background: #13004e;
-    --color-background-alt: #18005f;
+    --color-background: #d6d6d6;
+    --color-background-alt: #efeded;
     --color-primary: #48007e;
-    --color-border: #8b4cbb;
-    --color-alt: #48007e;
+    --color-header: #5e5e5e;
+    --color-border: #202020;
+    --color-alt: #ffee32;
     --color-text: #FBF0FF;
-    --color-apeal: #F0A000;
+    --color-text-alt: #0e2431;
+    --color-apeal: #e5bb00;
+    --color-apeal-alt: #c09d00;
 }
 
 .bg-gradient {
@@ -20,6 +24,6 @@
 }
 
 header {
-  background-color: var(--color-primary);
+  background-color: var(--color-header);
   border-bottom-color: var(--color-border);
 }
