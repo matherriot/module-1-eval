@@ -15,7 +15,11 @@
     "@parcel/compressor-brotli": "^2.10.3",
     "@parcel/compressor-gzip": "^2.10.3",
     "@parcel/config-default": "^2.10.3",
+    "@parcel/reporter-bundle-buddy": "^2.10.3",
+    "@parcel/transformer-sass": "2.10.3",
     "parcel": "^2.10.3",
-    "parcel-reporter-clean-dist": "^1.0.4"
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-doctype": "^1.1.1",
+    "posthtml-include": "^1.7.4"
   }
 }
