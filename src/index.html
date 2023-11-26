@@ -1,41 +1,38 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/base-theme.css">
-    <link rel="stylesheet" href="assets/css/components.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/base-theme.css" />
+    <link rel="stylesheet" href="assets/css/components.scss" />
     <!-- Favicon -->
     <title>Accueil</title>
-</head>
-<body class="landing bg-gradient">
-    <header>
-        <div class="branding">
-            <div class="logo-header"><img src="assets/img/logo.svg" alt="Logo ressemblant à une plume"></div>
-            <div></div>
-        </div>
-        <nav>
-
-        </nav>
-    </header>
+  </head>
+  <body class="landing bg-gradient">
+    <style>
+      .li-home {
+        display: none;
+      }
+    </style>
+    <include src="src/components/header.html"></include>
     <main>
-        <div class="slider">
-            <!-- Le slider -->
-        </div>
-        <div class="intro">
-            <!-- Box d'introduction avec lien vers intro/ -->
-            <!-- CTA -->
-        </div>
-        <section class="blog">
-            <article>
-                <div class="img-preview"><!-- img --></div>
-            </article>
-        </section>
-        <div class="stats">
-            <!-- Fausse statistique animée numérique avec logo et description -->
-        </div>
+      <div class="slider">
+        <!-- Le slider -->
+      </div>
+      <div class="intro">
+        <!-- Box d'introduction avec lien vers intro/ -->
+        <!-- CTA -->
+      </div>
+      <section class="blog">
+        <article>
+          <div class="img-preview"><!-- img --></div>
+        </article>
+      </section>
+      <div class="stats">
+        <!-- Fausse statistique animée numérique avec logo et description -->
+      </div>
     </main>
     <footer></footer>
-</body>
+  </body>
 </html>
