@@ -6,9 +6,26 @@
       "@parcel/compressor-brotli"
     ]
   },
+  "transformers": {
+    "bundle-text:*": [
+      "...",
+      "@parcel/transformer-inline-string"
+    ],
+    "data-url:*": [
+      "...",
+      "@parcel/transformer-inline-string"
+    ]
+  },
   "optimizers": {
-    "*.{jpg,jpeg,png}": []
+    "*.{jpg,jpeg,png}": [],
+    "data-url:*": [
+      "...",
+      "@parcel/optimizer-data-url"
+    ]
   },
   "extends": "@parcel/config-default",
-  "reporters":  ["...", "parcel-reporter-clean-dist"]
+  "reporters": [
+    "...",
+    "parcel-reporter-clean-dist"
+  ]
 }
