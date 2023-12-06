@@ -1,0 +1,13 @@
+.neumo-out {
+    border-radius: 50px;
+    background: #f6d32d;
+    box-shadow: 24px 24px 48px #d1b326,
+        -24px -24px 48px #fff334;
+}
+
+.neumo-in {
+    border-radius: 50px;
+    background: #f6d32d;
+    box-shadow: inset 24px 24px 48px #d1b326,
+        inset -24px -24px 48px #fff334;
+}
