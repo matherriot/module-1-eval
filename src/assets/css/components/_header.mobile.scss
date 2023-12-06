@@ -1,0 +1,123 @@
+@mixin headerMobile {
+    header {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: center;
+
+        padding: 0 .8rem;
+
+        .primary {
+            width: inherit;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-content: center;
+        }
+
+        .branding {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-content: center;
+
+            gap: 12px;
+            margin: .25rem;
+
+            .logo {
+                width: 48px;
+                height: 48px;
+                margin: .25rem 0;
+            }
+
+            .texts {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-content: center;
+
+                h1 {
+                    font-weight: bold;
+                    font-size: 3rem;
+                    line-height: 2.6rem;
+                    text-transform: uppercase;
+                }
+
+                h3 {
+                    padding-left: 4px;
+                    font-weight: 700;
+                    font-size: 1.25rem;
+                    line-height: .8rem;
+                    text-transform: initial;
+                    font-style: italic;
+                }
+            }
+        }
+
+        .burger-div {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-content: center;
+            
+            margin-left: 1rem;
+
+            a {
+                width: 48px;
+                height: 48px;
+
+                div {
+                    width: inherit;
+                    height: inherit;
+                }
+            }
+        }
+
+        nav {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-content: center;
+
+            margin: 2rem 4rem;
+
+            ul {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                align-content: center;
+
+                gap: 2rem;
+
+                li {
+                    font-weight: bold;
+                    font-size: 2rem;
+                    line-height: .8rem;
+                    text-transform: uppercase;
+
+                    a {
+                        text-decoration: none;
+                        color: var(--text);
+
+                        &:hover {
+                            color: #cecece;
+                        }
+                    }
+
+
+                }
+            }
+        }
+    }
+    .hidden {
+        display: none;
+    }
+}

@@ -1,0 +1,165 @@
+@use 'header.mobile'as *;
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+
+    padding: 0 .5rem;
+    color: var(--text);
+
+    background: linear-gradient(145deg, #ce9509, #f5b10b);
+    box-shadow: inset 29px 29px 58px #b58208,
+        inset -29px -29px 58px #ffc80c;
+
+    .primary {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: center;
+    }
+
+    .branding {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: center;
+
+        gap: 12px;
+        margin: .25rem;
+
+        .logo {
+            width: 48px;
+            height: 48px;
+            margin: .25rem 0;
+            background-image: url("../../img/honey-andrejs-kirma.png");
+            background-size: cover;
+            filter: brightness(0) saturate(100%) invert(99%) sepia(1%) saturate(997%) hue-rotate(36deg) brightness(116%) contrast(85%);
+        }
+
+        .texts {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+
+            h1 {
+                font-family: 'Monaspace Krypton SemiWide';
+                font-weight: bold;
+                font-size: 3rem;
+                line-height: 2.6rem;
+                text-transform: uppercase;
+            }
+
+            h3 {
+                padding-left: 4px;
+                font-family: 'Monaspace Argon';
+                font-weight: 700;
+                font-size: 1.25rem;
+                line-height: .8rem;
+                text-transform: initial;
+                font-style: italic;
+            }
+        }
+    }
+
+    .burger-div {
+        display: none;
+
+        a {
+            width: 48px;
+            height: 48px;
+
+            div {
+                width: inherit;
+                height: inherit;
+            }
+
+            .open {
+                background-image: url("../../img/icons/bee.png");
+                background-size: cover;
+                filter: brightness(0) saturate(100%) invert(99%) sepia(50%) saturate(21%) hue-rotate(171deg) brightness(108%) contrast(85%);
+            }
+
+            .close {
+                background-image: url("../../img/icons/bee-x.png");
+                background-size: cover;
+                filter: brightness(0) saturate(100%) invert(99%) sepia(50%) saturate(21%) hue-rotate(171deg) brightness(108%) contrast(85%);
+            }
+        }
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: center;
+
+        margin-right: 3rem;
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-content: center;
+
+            gap: 2rem;
+
+            li {
+                font-family: 'Monaspace Krypton SemiWide';
+                font-weight: bold;
+                font-size: 2rem;
+                line-height: .8rem;
+                text-transform: uppercase;
+
+                a {
+                    text-decoration: none;
+                    color: var(--text);
+
+                    &:hover {
+                        color: #cecece;
+                    }
+                }
+
+
+            }
+        }
+    }
+}
+
+.tag {
+    --bg-size: 500%;
+    --color-one: #ececec;
+    --color-two: #b8b8b8;
+
+    font-size: clamp(1.5rem, 25vmin, 4rem);
+    background: linear-gradient(90deg,
+            var(--color-one),
+            var(--color-two),
+            var(--color-one)) 0 0 / var(--bg-size) 100%;
+    color: transparent;
+    background-clip: text;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .tag {
+        animation: move-bg 8s linear infinite;
+    }
+
+    @keyframes move-bg {
+        to {
+            background-position: var(--bg-size) 0;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    @include headerMobile;
+}

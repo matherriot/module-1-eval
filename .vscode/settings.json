@@ -3,7 +3,8 @@
         "src",
         "style",
         "html",
-        "modules"
+        "modules",
+        "assets"
     ],
     "git.ignoreLimitWarning": true
 }
