@@ -1,6 +1,6 @@
 {
   "name": "module-1-eval",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "source": "'./src/**/*.html'",
   "scripts": {
@@ -17,9 +17,11 @@
     "@parcel/config-default": "^2.10.3",
     "@parcel/reporter-bundle-buddy": "^2.10.3",
     "@parcel/transformer-sass": "2.10.3",
+    "@parcel/validator-typescript": "^2.10.3",
     "parcel": "^2.10.3",
     "parcel-reporter-clean-dist": "^1.0.4",
     "posthtml-doctype": "^1.1.1",
-    "posthtml-include": "^1.7.4"
+    "posthtml-include": "^1.7.4",
+    "typescript": ">=3.0.0"
   }
 }
