@@ -6,6 +6,9 @@
       "@parcel/compressor-brotli"
     ]
   },
+  "validators": {
+    "*.{ts,tsx}": ["@parcel/validator-typescript"],
+  },
   "transformers": {
     "bundle-text:*": [
       "...",
@@ -24,8 +27,5 @@
     ]
   },
   "extends": "@parcel/config-default",
-  "reporters": [
-    "...",
-    "parcel-reporter-clean-dist"
-  ]
+  "reporters": ["...", "parcel-reporter-clean-dist"]
 }

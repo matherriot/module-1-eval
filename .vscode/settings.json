@@ -4,7 +4,8 @@
         "style",
         "html",
         "modules",
-        "assets"
+        "assets",
+        "scripts"
     ],
     "git.ignoreLimitWarning": true
 }
