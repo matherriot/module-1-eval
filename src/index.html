@@ -1,18 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/main.scss">
+    <script defer src="assets/ts/loading.ts"></script>
+    <script defer src="assets/ts/burger.ts"></script>
     <title>Accueil</title>
 </head>
-<body>
-    <div class="container bk-pattern">
-    <include src="src/components/header.html"></include>
-    <main>
 
-    </main>
-    <include src="src/components/footer.html"></include>
+<body>
+    <div class="loader-box"><include src="src/components/loader.html"></include></div>
+    <div class="container bk-pattern hidden-container">
+        <include src="src/components/header.html"></include>
+        <main>
+
+        </main>
+        <include src="src/components/footer.html"></include>
     </div>
 </body>
+
 </html>
