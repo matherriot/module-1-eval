@@ -1,0 +1,98 @@
+@use 'footer.mobile'as *;
+
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+
+    width: inherit;
+    min-height: 15vh;
+
+    padding: 0 1.5rem;
+    gap: 1rem;
+    color: var(--text);
+
+    background: linear-gradient(145deg, #ce9509, #f5b10b);
+    box-shadow: inset 29px 29px 58px #b58208,
+        inset -29px -29px 58px #ffc80c;
+
+
+    font-family: 'Monaspace Krypton SemiWide';
+    font-weight: bold;
+    text-transform: uppercase;
+
+    .copyright {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: center;
+
+        height: inherit;
+
+        a {
+            text-decoration: none;
+
+            h3 {
+                font-size: 1.25rem;
+            }
+        }
+
+        .site-name {
+            font-weight: bolder;
+            font-size: 2.25rem;
+            line-height: 3rem;
+        }
+
+        .mention {
+            h3 {
+                font-family: 'Monaspace Argon';
+                font-weight: normal;
+            }
+        }
+    }
+
+    .legal {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: center;
+
+        height: inherit;
+
+        ul {
+            li {
+                a {
+                    color: var(--text);
+                    // text-decoration: none;
+                    font-weight: bold;
+                    font-size: 1.25rem;
+
+                    &:hover {
+                        color: var(--text);
+                    }
+                }
+            }
+        }
+    }
+
+    .social {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: center;
+
+        height: inherit;
+        width: 25vw;
+
+        background-color: rgba(128, 128, 128, 0.35);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    @include footerMobile;
+}
