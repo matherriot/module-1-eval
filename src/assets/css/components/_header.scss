@@ -36,7 +36,7 @@ header {
             width: 48px;
             height: 48px;
             margin: .25rem 0;
-            background-image: url("../../img/honey-andrejs-kirma.png");
+            background-image: url("../../img/honey-andrejs-kirma.png?as=avif&quality=75");
             background-size: cover;
             filter: brightness(0) saturate(100%) invert(99%) sepia(1%) saturate(997%) hue-rotate(36deg) brightness(116%) contrast(85%);
         }
@@ -81,13 +81,13 @@ header {
             }
 
             .open {
-                background-image: url("../../img/icons/bee.png");
+                background-image: url("../../img/icons/bee.png?as=avif&quality=75");
                 background-size: cover;
                 filter: brightness(0) saturate(100%) invert(99%) sepia(50%) saturate(21%) hue-rotate(171deg) brightness(108%) contrast(85%);
             }
 
             .close {
-                background-image: url("../../img/icons/bee-x.png");
+                background-image: url("../../img/icons/bee-x.png?as=avif&quality=75");
                 background-size: cover;
                 filter: brightness(0) saturate(100%) invert(99%) sepia(50%) saturate(21%) hue-rotate(171deg) brightness(108%) contrast(85%);
             }
