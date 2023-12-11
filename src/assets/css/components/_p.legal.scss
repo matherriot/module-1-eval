@@ -1,0 +1,53 @@
+@use 'p.legal.mobile'as *;
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    color: var(--text);
+    padding: 1.5rem;
+
+    .legal, .rgpd {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        background: rgba(255, 255, 255, 0.15);
+        border: 0.5px solid rgba(255, 255, 255, 0.14);
+        -webkit-backdrop-filter: blur(50px);
+        backdrop-filter: blur(50px);
+
+        padding: 1rem;
+
+        a {
+            color: var(--primary);
+            &:hover {
+                color: var(--text);
+                font-weight: 700;
+            }
+        }
+
+        h1 {
+            font-size: 250%;
+            font-weight: bolder;
+        }
+
+        section {
+
+            h2 {
+                font-size: 200%;
+            }
+
+            p {
+                text-align: justify;
+                a {}
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    @include pLegalMobile;
+}

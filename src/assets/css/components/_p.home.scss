@@ -90,8 +90,8 @@ main {
                 .btn-lnk {
                     align-items: flex-end;
                     text-decoration: none;
-                    background-color: red;
-                    color: var(--text);
+                    background-color: var(--primary);
+                    color: var(--secondary);
                     padding: 0.75rem;
                     margin: 0.25rem;
                     border-radius: 5px;
@@ -101,7 +101,7 @@ main {
 		}
 	}
 	section.stats {
-
+        // Triple statistique numérique ici avec animation d'incrémentation.
 	}
 	section.cta {
         display: flex;
