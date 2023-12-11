@@ -14,6 +14,8 @@ header {
     box-shadow: inset 29px 29px 58px #b58208,
         inset -29px -29px 58px #ffc80c;
 
+    transition: 750ms;
+
     .primary {
         display: flex;
         flex-direction: row;
@@ -81,12 +83,14 @@ header {
             }
 
             .open {
+                transition: 0.8s;
                 background-image: url("../../img/icons/bee.png?as=avif&quality=75");
                 background-size: cover;
                 filter: brightness(0) saturate(100%) invert(99%) sepia(50%) saturate(21%) hue-rotate(171deg) brightness(108%) contrast(85%);
             }
 
             .close {
+                transition: 0.8s;
                 background-image: url("../../img/icons/bee-x.png?as=avif&quality=75");
                 background-size: cover;
                 filter: brightness(0) saturate(100%) invert(99%) sepia(50%) saturate(21%) hue-rotate(171deg) brightness(108%) contrast(85%);
@@ -128,6 +132,9 @@ header {
                     }
                 }
 
+                .disabled {
+                    color: gray;
+                }
 
             }
         }
