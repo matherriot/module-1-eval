@@ -50,23 +50,23 @@
 ## Critères optionnels :
 
  - [ ] Menu avec un dropdown
- - [ ] Menu Hamburger en responsive (animé ?)
+ - [x] Menu Hamburger en responsive (animé ?)
  - [ ] Gradient sur des bordures
- - [ ] Polices importée en dur (ttf)
+ - [x] Polices importée en dur (ttf)
  - [ ] SHTML
 
 ## Structure minimale attendu :
 
  - Page d'accueil
-	 - [ ] Un slider/carrousel d'images en CSS.
+	 - [x] Un background parallax en CSS.
 		 - Pas d'utilisation de JS/TS/CS.
-	 - [ ] Une courte introduction sur la société/le projet.
-	 - [ ] 3 encarts d'article (fictif).
+	 - [x] Une courte introduction sur la société/le projet.
+	 - [x] 3 encarts d'article (fictif).
 		 - Image
 		 - Chapeau
 	 - [ ] Une barre de 3 icônes svg avec des chiffres.
 		 -  Ex: statistiques clients
-	 - [ ] Un`Call To Action` qui fait baver.
+	 - [x] Un`Call To Action` qui fait baver.
 # DeadLine
 
 > 11 Décembre 2023
