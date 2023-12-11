@@ -37,6 +37,7 @@ footer {
 
             h3 {
                 font-size: 1.25rem;
+                color: var(--text);
             }
         }
 
@@ -88,6 +89,8 @@ footer {
 
         height: inherit;
         width: 25vw;
+
+        padding: .75rem;
 
         background-color: rgba(128, 128, 128, 0.35);
     }
